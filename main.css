@@ -1,0 +1,202 @@
+	
+/* ========== ELEMENTS ========== */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 15px 0 45px 0;
+	background-image: url('files/pattern.png');
+	background-repeat:repeat;
+}
+
+p {
+	display: block;
+	line-height: 1.25em;
+	color:#FFF;
+	font-size: 16px;
+}
+
+ul {
+	line-height: 1.25em;
+	margin-top: 0.75em;
+}
+
+li {
+	margin-bottom: 0.5em;
+}
+
+a, a:active, a:link, a:visited {
+	color: #F8DF67;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff5a00;
+}
+
+blockquote {
+	font-family: Georgia, serif;
+	color: #333;
+	font-size: 21px;
+	line-height: 1.25em;
+	margin-top: 0.5em;
+}
+
+/* ========== LAYOUT ========== */
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;	
+}
+
+/* ==== Prospect Update ==== */
+
+#prospect {
+	float: left;
+	line-height: 16px;
+	font-size: 12px;
+}
+
+#prospect span {
+	display: block;
+	float: left;
+	font-family: Georgia, serif;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+	background-color: #FFEB00;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	text-align: center;
+	margin-right: 7px;
+}
+
+/* ===== Short URL ===== */
+
+#shorturl {
+	float: right;
+	font-size: 13px;
+}
+
+#shorturl strong {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 11px;
+	color: #666;
+}
+
+/* ===== Header ===== */
+
+header {
+	padding: 5px 15px 30px 15px;
+	border-bottom-width: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #F8DF67;
+	}
+.left{float:left;}
+.right{float:right;}
+h1 {
+	font-size: 65px;
+	font-family:  'La Belle Aurore', arial, serif;
+	line-height: 1.5em;
+	color:  #fae67f;
+	
+}
+
+h2 {
+	font-size: 21px;
+	font-family: Georgia, serif;
+	font-weight: normal;
+}
+
+/* ===== Suggestions ===== */
+
+h3 {
+	font-family: Georgia, serif;
+	font-size: 25px;
+	display: inline;
+	line-height: 1.25em;
+	color: #FFFFFF;
+	background-color: #F08BA0;
+}
+
+#suggestions {
+	margin-top: -1px;
+
+}
+
+#suggestions .suggestion {
+	width:288px;
+	padding: 20px 15px;
+	float: left;
+}
+
+#suggestions .suggestion p {
+	margin-top: .75em;
+}
+
+#suggestions div {
+	border-top: 1px dotted  #F0E69B;
+}
+
+.resource a {
+	color: #000;
+	display: block;
+}
+
+.resource a:hover h3 {
+	background-color: #ff6a18;
+}
+
+.suggestion span {
+	display: block;
+	float: left;
+	font-family: 'ChunkFive Roman', georgia, serif;
+	font-size: 89px;
+	padding: 0 15px 0 0;
+}
+
+.resource span {
+	font-size: 55px;
+}
+
+footer {
+	padding: 15px;
+	font-family: Georgia, serif;
+	font-size: 13px;
+	text-align: center;
+	color: #666;
+}
+
+
+/* ========== SPECIAL BOXES ========== */
+
+#suggestions #irl {
+	background: url('../images/speech.png') bottom center no-repeat;
+	padding-bottom: 150px;
+}
+
+#suggestions #search {
+	background: url('') bottom right no-repeat;
+	padding-bottom: 40px;
+}
+
+#search p:last-child {
+	width: 170px;
+}
+
+#suggestions #goodtoknow {
+	
+	padding-bottom: 50px;
+}
+
+#goodtoknow h3 {
+	background-color: transparent;
+	border-bottom: 1px solid #00aeff;
+}
+
+#suggestions #goodtoknow_inner {
+	padding: 10px 15px;
+	border-top: 0;
+}
